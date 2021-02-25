@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    width: 80vw;
+    margin: auto;
+}
+
+header {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+main section {
+    height: 500px;
+}
+
+section.sezione-uno {
+    background-color: cadetblue;
+}
+
+section.sezione-due {
+    background-color: cornflowerblue;
+}
+
+footer {
+    background-color: darkcyan;
+    height: 100px;
+}
+
+header, section, footer {
+    margin: 20px;
+}
